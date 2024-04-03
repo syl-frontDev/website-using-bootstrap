@@ -5,4 +5,10 @@ $secondary: #334a52;
 
 $warning: #f67300;
 
+@font-face {
+    font-family: 'signpainter';
+    src: url(../font/SignPainter.ttc)
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "./why";
