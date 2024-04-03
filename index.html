@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend with Bootstrap</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Hevi Photography</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#why" class="nav-link">Why choose us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#faq" class="nav-link">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+
+    <header class="text-bg-dark p-5 p-w1-0 pt-lg-5 text-center text-sm-start">
+      <div class="container ms-auto">
+        <div class="d-sm-flex justify-content-between align-items-center">
+          <div style="max-width: 630px">
+            <h1>
+              Commercial
+              <span class="text-primary"> Photography Studio </span>
+            </h1>
+
+            <p class="lead my-4 pe-lg-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur aliquid dolor ipsum magnam. Eligendi fugiat tempora
+              sunt cum totam in.
+            </p>
+
+            <button
+              class="btn btn-warning btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#book-a-session"
+            >
+              Book a session
+            </button>
+          </div>
+
+          <img
+            src="./images/icons8-adobe-audition-w.svg"
+            class="img-fluid d-none d-sm-block"
+            style="width: 25%"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- Newsletter -->
+    <section class="text-bg-primary p-4">
+      <div class="container">
+        <div
+          class="d-md-flex justify-content-between align-items-center news-wrapper"
+        >
+          <h4 class="mb-3 mb-md-0">Sign up for our Newsletter</h4>
+
+          <div class="input-group news-input">
+            <input type="text" class="form-control" placeholder="Enter Email" />
+            <button type="button" class="btn btn-dark">Button</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- card with grid display -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <!-- card 1 -->
+          <div class="col-md">
+            <div class="card text-bg-dark">
+              <div class="class-body text-center py-5 px-3">
+                <div class="mb-3">
+                  <img
+                    src="./images/icons/icons8-camera-90-whi.png"
+                    alt=""
+                    style="max-width: 50px; height: auto"
+                  />
+                </div>
+
+                <h3 class="card-title mb-3">Cameras</h3>
+                <p class="card-text px-lg-5 px-sm-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque dolore ut qui molestias quia.
+                </p>
+                <a href="#" class="btn btn-warning">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="col-md">
+            <div class="card text-bg-secondary">
+              <div class="class-body text-center py-5 px-3">
+                <div class="mb-3">
+                  <img
+                    src="./images/icons/icons8-code-96-w.png"
+                    alt=""
+                    style="max-width: 60px; height: auto"
+                  />
+                </div>
+
+                <h3 class="card-title mb-3">Code Camp</h3>
+                <p class="card-text px-lg-5 px-sm-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque dolore ut qui molestias quia.
+                </p>
+                <a href="#" class="btn btn-dark">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="col-md">
+            <div class="card text-bg-dark">
+              <div class="class-body text-center py-5 px-3">
+                <div class="mb-3">
+                  <img
+                    src="./images/icons/icons8-research-100-w.png"
+                    alt=""
+                    style="max-width: 40px; height: auto"
+                  />
+                </div>
+
+                <h3 class="card-title mb-3">Research</h3>
+                <p class="card-text px-lg-5 px-sm-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque dolore ut qui molestias quia.
+                </p>
+                <a href="#" class="btn btn-warning">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn section -->
+    <section class="p-5" id="why">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg p-0 image-wrapper">
+            <img
+              src="./images/tanya_cyrus_wedding_photography_by_sylthephotographer-2.jpg"
+              style="width: 100%"
+              class="image-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-md p-5">
+            <h2>Why Choose us</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Accusamus, iste? Ex aperiam porro vel neque.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+              facere magnam! Quas asperiores dolores dolorum voluptatem ullam
+              voluptas, fuga, voluptates neque quae perferendis esse? Soluta
+              illum quibusdam quo unde quas.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae magni blanditiis deserunt ex distinctio quos est,
+              obcaecati beatae deleniti? Facere, obcaecati repellendus.
+            </p>
+
+            <a href="#" class="btn btn-dark mt-3 d-inline-flex">
+              <div class="icon-wrapper me-2">
+                <img
+                  style="width: 100%"
+                  class="image-fluid"
+                  src="./images/icons/arrow-right-w.png"
+                  alt=""
+                />
+              </div>
+              Read more
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Another section -->
+    <section class="p-5 bg-dark" id="why">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5 text-light">
+            <h2>Take Amazing Portrait</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              quas esse. Suscipit aspernatur vero exercitationem, impedit nulla
+              illum molestiae nostrum temporibus, similique fugiat facilis
+              corporis eius ipsa sapiente magnam numquam, sint eos unde non
+              eligendi. Recusandae minima nulla laborum sequi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque
+              assumenda est iusto obcaecati reiciendis?
+            </p>
+
+            <a href="#" class="btn btn-light mt-3 d-inline-flex">
+              <div class="icon-wrapper me-2">
+                <img
+                  style="width: 100%"
+                  class="image-fluid"
+                  src="./images/icons/arrow-right.png"
+                  alt=""
+                />
+              </div>
+              Read more
+            </a>
+          </div>
+
+          <div class="col-lg p-0 image-wrapper">
+            <img
+              src="./images/portrait_photography_by_sylvester_harding-022.jpg"
+              style="width: 100%"
+              class="image-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="faqAccordion">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                type="button"
+                class="accordion-button collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+              >
+                What are the available packages?
+              </button>
+            </h2>
+
+            <div
+              class="accordion-collapse collapse"
+              id="flush-collapseOne"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Veniam, nesciunt sed quia dicta deleniti quo atque! Illo
+                  explicabo consectetur placeat adipisci asperiores ipsa aut,
+                  quibusdam temporibus? Ad optio harum quas cum nam. Doloribus
+                  unde impedit modi consequatur ut a quae, placeat tempora ipsum
+                  deserunt sed, earum ab voluptate, cupiditate inventore
+                  deleniti provident ea nobis et asperiores? Eligendi
+                  laudantium, expedita, cupiditate reiciendis quia, itaque
+                  suscipit sunt voluptatem aspernatur distinctio nesciunt vel.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                type="button"
+                class="accordion-button collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+              >
+                What's your studio location?
+              </button>
+            </h2>
+
+            <div
+              class="accordion-collapse collapse"
+              id="flush-collapseTwo"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Natus nobis illum obcaecati dolor delectus enim minima porro,
+                  maiores sit, maxime modi suscipit atque expedita quae
+                  voluptatem ducimus ea debitis odit culpa tempora voluptate!
+                  Fuga suscipit aliquam illum nihil pariatur iure soluta
+                  voluptatibus?
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                type="button"
+                class="accordion-button collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+              >
+                What are the available frame sizes?
+              </button>
+            </h2>
+
+            <div
+              class="accordion-collapse collapse"
+              id="flush-collapseThree"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor si</p>
+                <p>Lorem ipsum dolor sit amet, con.</p>
+                <p>Lorem ipsum dolor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Staff -->
+
+    <section class="staff p-5 text-bg-primary">
+      <div class="container">
+        <h2 class="text-center text-light">Our Staff</h2>
+
+        <p class="text-center text-white mb-5 p-lw">
+          Our staff have 23+ years combined as
+          <span class="text-warning shadow-sm h4">software engineers</span> in
+          the industry
+        </p>
+
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light align-items-center">
+              <div
+                class="card-body d-flex align-items-center flex-column text-center"
+              >
+                <div class="staff-image mb-5">
+                  <img
+                    src="./images/portrait_photography_by_sylvester_harding-055.jpg"
+                    class="image-fluid rounded"
+                    style="position: relative; top: -50px"
+                    alt=""
+                  />
+                </div>
+                <h3 class="card-title mb-3 p-w3">Lana Lang</h3>
+                <p class="card-text px-3 p-w3">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
+                  voluptatem dignissimos alias! Mollitia, sunt asperiores!
+                </p>
+                <div class="icon-container d-flex">
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-email-96.png" alt="" />
+                    </div>
+                  </a>
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-instagram.svg" alt="" />
+                    </div>
+                  </a>
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-linkedin.svg" alt="" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light align-items-center">
+              <div
+                class="card-body d-flex align-items-center flex-column text-center"
+              >
+                <div class="staff-image mb-5">
+                  <img
+                    src="./images/portrait_photography_by_sylvester_harding-35.jpg"
+                    class="image-fluid rounded"
+                    style="position: relative; top: -20px"
+                    alt=""
+                  />
+                </div>
+                <h3 class="card-title mb-3 p-w3">Mia Khalifer</h3>
+                <p class="card-text px-3 p-w3">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Optio amet quibusdam ex pariatur similique enim.
+                </p>
+                <div class="icon-container d-flex">
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-email-96.png" alt="" />
+                    </div>
+                  </a>
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-instagram.svg" alt="" />
+                    </div>
+                  </a>
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-linkedin.svg" alt="" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light align-items-center">
+              <div
+                class="card-body d-flex align-items-center flex-column text-center"
+              >
+                <div class="staff-image mb-5">
+                  <img
+                    src="./images/portrait_photography_by_sylvester_harding-003.jpg"
+                    class="image-fluid rounded"
+                    style="position: relative; top: -50px"
+                    alt=""
+                  />
+                </div>
+                <h3 class="card-title mb-3 p-w3">Caril Johnson</h3>
+                <p class="card-text px-3 p-w3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  corporis maxime dolorem ullam dignissimos adipisci!
+                </p>
+                <div class="icon-container d-flex">
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-email-96.png" alt="" />
+                    </div>
+                  </a>
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-instagram.svg" alt="" />
+                    </div>
+                  </a>
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-linkedin.svg" alt="" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light align-items-center">
+              <div
+                class="card-body d-flex align-items-center flex-column text-center"
+              >
+                <div class="staff-image mb-5">
+                  <img
+                    src="./images/portrait_photography_by_sylvester_harding-004.jpg"
+                    class="image-fluid rounded"
+                    style="position: relative; top: 0px"
+                    alt=""
+                  />
+                </div>
+                <h3 class="card-title mb-3 p-w3">Judith Smith</h3>
+                <p class="card-text px-3 p-w3">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Optio amet quibusdam ex pariatur similique enim.
+                </p>
+                <div class="icon-container d-flex">
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-email-96.png" alt="" />
+                    </div>
+                  </a>
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-instagram.svg" alt="" />
+                    </div>
+                  </a>
+                  <a href="#" class="mx-1">
+                    <div class="icon">
+                      <img src="./images/icons/icons8-linkedin.svg" alt="" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="p-5">
+      <div class="container p-tb">
+        <div class="row g-5" style="gap: 200px">
+          <!-- column 1 -->
+          <div class="col-md">
+            <h2 class="text-center md-4">Contact Info</h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span> Oxford Street, Accra
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Phone:</span>+233 598 444 671
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email:</span> spharding69@gmail.com
+              </li>
+            </ul>
+          </div>
+
+          <!-- column 2 -->
+          <div class="col-md map-container">
+            <p class="display-1 p-w1">MAP</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="p-5 text-bg-dark position-relative text-center">
+      <div class="container">
+        <p class="p-w1">
+          Copyright &copy; 2024 Frontend Development | SYLVESTER P HARDING
+        </p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <div class="icon-up">
+            <img
+              src="./images/icons/icons8-arrow-up-100-w.png"
+              style="width: 40%"
+              alt=""
+            />
+          </div>
+        </a>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="book-a-session" tabindex="1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="book-a-sessionLabel">Modal title</h5>
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <p>Fill out this form and we will get back to you</p>
+            <!-- Modal form -->
+            <form>
+              <div class="mb-3">
+                <label for="firstName" class="col-form-label">
+                  First Name:
+                </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="first-name"
+                  placeholder="Enter first name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="lastName" class="col-form-label">
+                  Last Name:
+                </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="last-name"
+                  placeholder="Enter last name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label"> Email: </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="first-name"
+                  placeholder="Enter email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="col-form-label"> Phone: </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="first-name"
+                  placeholder="Enter phone number"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

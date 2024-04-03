@@ -1,0 +1,76 @@
+/* Utility classes */
+.p-w1 {
+    font-weight: 100;
+}
+.p-w3 {
+    font-weight: 300;
+}
+.p-w5 {
+    font-weight: 500;
+}
+.p-tb {
+    padding: 9rem 0 ;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+@media(min-width: 992px) {
+
+    .image-wrapper {
+        border-radius: 18px;
+        overflow: hidden;
+    }
+}
+
+@media(max-width: 768px) {
+    .news-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.icon-wrapper {
+    width:5px;
+}
+
+.icon-up {
+    width:40px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.icon-up:hover {
+    background-color: rgba(128, 128, 128, 1);
+}
+.icon {
+    width:28px;
+}
+
+.staff-image {
+    max-width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.map-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid teal;
+}
